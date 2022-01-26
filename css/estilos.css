@@ -1,0 +1,127 @@
+:root{
+    --naranja:  hsl(31, 77%, 52%);
+    --cyanOscuro: hsl(184, 100%, 22%);
+    --cyanMOscuro:hsl(179, 100%, 13%);
+    --blancoT:hsla(0, 0%, 100%, 0.75); /*Parrafos*/
+    --grisMClaro:hsl(0, 0%, 95%) /* fondo, titulos, botones*/
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display', 'Lexend Deca', sans-serif, cursive;
+    font-size: 15px;
+}
+
+.principal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor{
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: var(--blancoT);
+    margin-bottom: 50px;
+    
+
+}
+
+.sedans{
+    background-color: var(--naranja);
+    padding: 40px 15px 40px 40px;
+    
+}
+
+.sedans h2{
+    font-weight: bold;
+    font-size: 40px ;
+    text-transform: uppercase;
+}
+
+.sedans p{
+    color: var(--blancoT);
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 60px;
+}
+
+.sedans a{
+    text-decoration: none;
+    font-family: 'Lexend Deca';
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: var(--grisMClaro);
+    color:var(--naranja); 
+    margin-top: 10px;
+}
+
+.suvs{
+    background-color: var(--cyanOscuro);
+    padding: 40px 15px 40px 40px;
+    
+}
+
+.suvs h2{
+    font-weight: bold;
+    font-size: 40px ;
+    text-transform: uppercase;
+}
+
+.suvs p{
+    color: var(--blancoT);
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 60px;
+}
+
+.suvs a{
+    text-decoration: none;
+    font-family: 'Lexend Deca';
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: var(--grisMClaro);
+    color:var(--cyanOscuro); 
+    margin-top: 10px;
+}
+
+.luxury{
+    background-color: var(--cyanMOscuro);
+    padding: 40px 15px 40px 40px;
+    
+}
+
+.luxury h2{
+    font-weight: bold;
+    font-size: 40px ;
+    text-transform: uppercase;
+}
+
+.luxury p{
+    color: var(--blancoT);
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 60px;
+}
+
+.luxury a{
+    text-decoration: none;
+    font-family: 'Lexend Deca';
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: var(--grisMClaro);
+    color:var(--cyanMOscuro); 
+    margin-top: 10px;
+}
