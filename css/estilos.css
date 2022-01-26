@@ -24,11 +24,13 @@ body{
 
 .contenedor{
     width: 800px;
-    height: 400px;
+    height: 460px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     color: var(--blancoT);
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    overflow: hidden;
     
 
 }
@@ -36,7 +38,7 @@ body{
 .sedans{
     background-color: var(--naranja);
     padding: 40px 15px 40px 40px;
-    
+   
 }
 
 .sedans h2{
@@ -124,4 +126,22 @@ body{
     background-color: var(--grisMClaro);
     color:var(--cyanMOscuro); 
     margin-top: 10px;
+}
+
+.sedans a:hover{
+    background-color: var(--naranja);
+    color: var(--blancoT);
+    border: 1px solid var(--blancoT);
+}
+
+.suvs a:hover{
+    background-color: var(--cyanOscuro);
+    color: var(--blancoT);
+    border: 1px solid var(--blancoT);
+}
+
+.luxury a:hover{
+    background-color: var(--cyanMOscuro);
+    color: var(--blancoT);
+    border: 1px solid var(--blancoT);
 }
