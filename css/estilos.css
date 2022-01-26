@@ -1,5 +1,5 @@
 :root{
-    --naranja:  hsl(31, 77%, 52%);
+    --naranja: hsl(31, 77%, 52%);
     --cyanOscuro: hsl(184, 100%, 22%);
     --cyanMOscuro:hsl(179, 100%, 13%);
     --blancoT:hsla(0, 0%, 100%, 0.75); /*Parrafos*/
@@ -32,7 +32,6 @@ body{
     border-radius: 10px;
     overflow: hidden;
     
-
 }
 
 .sedans{
@@ -131,17 +130,30 @@ body{
 .sedans a:hover{
     background-color: var(--naranja);
     color: var(--blancoT);
-    border: 1px solid var(--blancoT);
+    border: 3px solid var(--blancoT);
 }
 
 .suvs a:hover{
     background-color: var(--cyanOscuro);
     color: var(--blancoT);
-    border: 1px solid var(--blancoT);
+    border: 3px solid var(--blancoT);
 }
 
 .luxury a:hover{
     background-color: var(--cyanMOscuro);
     color: var(--blancoT);
-    border: 1px solid var(--blancoT);
+    border: 3px solid var(--blancoT);
+}
+
+@media (max-width:450px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 560px;
+        overflow: visible;
+        
+        
+    }
+
 }
