@@ -150,15 +150,16 @@ body{
         display: flex;
         flex-direction: column;
         width: 350px;
-        height: 500px;
+        height: 550px;
         overflow: visible;
-        border-radius: 15px;
-        border: 1px solid black;
+        
+        
         
     }
 
     .sedans{
-        padding: 40px 50px 60px 40px;
+        padding: 40px 60px 60px 60px;
+        border-radius: 15px 15px 0 0;
         
     }
 
@@ -166,8 +167,12 @@ body{
         padding-bottom: 25px
     }
 
+    .sedans a{
+        padding: 15px 35px;
+    }
+
     .suvs{
-        padding: 40px 50px 60px 40px;
+         padding: 40px 60px 60px 60px;
         
     }
 
@@ -175,12 +180,21 @@ body{
         padding-bottom: 25px
     }
 
+    .suvs a{
+        padding: 15px 35px;
+    }
+
     .luxury{
-        padding: 40px 50px 60px 40px;
+        padding: 40px 60px 60px 60px;
+        border-radius: 0 0 15px 15px;
         
     }
 
     .luxury p{
         padding-bottom: 25px
+    }
+
+    .luxury a{
+        padding: 15px 35px;
     }
 }
