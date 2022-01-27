@@ -145,15 +145,42 @@ body{
     border: 3px solid var(--blancoT);
 }
 
-@media (max-width:450px) {
+@media (max-width:480px) {
     .contenedor{
         display: flex;
         flex-direction: column;
         width: 350px;
-        height: 560px;
+        height: 500px;
         overflow: visible;
-        
+        border-radius: 15px;
+        border: 1px solid black;
         
     }
 
+    .sedans{
+        padding: 40px 50px 60px 40px;
+        
+    }
+
+    .sedans p{
+        padding-bottom: 25px
+    }
+
+    .suvs{
+        padding: 40px 50px 60px 40px;
+        
+    }
+
+    .suvs p{
+        padding-bottom: 25px
+    }
+
+    .luxury{
+        padding: 40px 50px 60px 40px;
+        
+    }
+
+    .luxury p{
+        padding-bottom: 25px
+    }
 }
